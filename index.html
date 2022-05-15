@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>相濡以沫不如相忘于江湖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="相濡以沫不如相忘于江湖">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="相濡以沫不如相忘于江湖">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="Youfat">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="相濡以沫不如相忘于江湖" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">相濡以沫不如相忘于江湖</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-android-adb与模拟器相关（持续更新）" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/15/android-adb%E4%B8%8E%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%9B%B8%E5%85%B3%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" class="article-date">
+  <time class="dt-published" datetime="2022-05-15T12:17:36.000Z" itemprop="datePublished">2022-05-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/05/15/android-adb%E4%B8%8E%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%9B%B8%E5%85%B3%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/">android adb与模拟器相关（持续更新）</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">adb disable-verity</span><br><span class="line">adb reboot</span><br><span class="line">adb root</span><br><span class="line">adb remount</span><br><span class="line">mount -o remount rw /system</span><br><span class="line">adb shell mount -o bind /system /system</span><br><span class="line">adb shell mount -o rw,remount /</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">emulator -list-avds</span><br><span class="line">emulator -avd Pixel_2_API_30 -writable-system</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/15/android-adb%E4%B8%8E%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%9B%B8%E5%85%B3%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/" data-id="cl379jx1u00006guh82505c16" data-title="android adb与模拟器相关（持续更新）" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-问题收集" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/15/%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/" class="article-date">
+  <time class="dt-published" datetime="2022-05-15T12:13:35.000Z" itemprop="datePublished">2022-05-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/05/15/%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/">问题收集</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="Edge浏览器字符修改"><a href="#Edge浏览器字符修改" class="headerlink" title="Edge浏览器字符修改"></a>Edge浏览器字符修改</h4><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/lanlangaogao/article/details/122535848">Edge浏览器字符修改</a></p>
+<h4 id="gradle下载慢"><a href="#gradle下载慢" class="headerlink" title="gradle下载慢"></a>gradle下载慢</h4><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_40067488/article/details/104896201">gradle下载慢</a><br><a target="_blank" rel="noopener" href="https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.50">mvnrepository仓库</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/15/%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/" data-id="cl379jx1y00016guhh4tl1t1i" data-title="问题收集" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Git命令-持续整理" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/11/Git%E5%91%BD%E4%BB%A4-%E6%8C%81%E7%BB%AD%E6%95%B4%E7%90%86/" class="article-date">
+  <time class="dt-published" datetime="2022-05-11T14:21:16.000Z" itemprop="datePublished">2022-05-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/05/11/Git%E5%91%BD%E4%BB%A4-%E6%8C%81%E7%BB%AD%E6%95%B4%E7%90%86/">Git命令 -- 持续整理</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h3 id="stash相关"><a href="#stash相关" class="headerlink" title="stash相关"></a>stash相关</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"># 暂存当前改变</span><br><span class="line">git stash </span><br><span class="line"></span><br><span class="line"># 暂存内容并添加注释</span><br><span class="line">git stash save &quot;注释内容&quot;</span><br><span class="line"></span><br><span class="line"># 列出所有暂存内容</span><br><span class="line">git stash list</span><br><span class="line"></span><br><span class="line"># 从暂存区pop出最新的</span><br><span class="line">git stash pop</span><br><span class="line"></span><br><span class="line"># 指定stash</span><br><span class="line">git stash apply stash@&#123;0&#125;</span><br><span class="line"></span><br><span class="line"># 删除仓库所有stash</span><br><span class="line">git stash clear</span><br></pre></td></tr></table></figure>
+
+<h3 id="push相关"><a href="#push相关" class="headerlink" title="push相关"></a>push相关</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># -f 强制推送</span><br><span class="line">git push -f </span><br><span class="line"></span><br><span class="line"># 推送本地分支到远程</span><br><span class="line">git push origin &lt;local_branch&gt;:&lt;remote_branch&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/11/Git%E5%91%BD%E4%BB%A4-%E6%8C%81%E7%BB%AD%E6%95%B4%E7%90%86/" data-id="cl379c8tq0002bkuhgs9y5anb" data-title="Git命令 -- 持续整理" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-service流程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/11/service%E6%B5%81%E7%A8%8B/" class="article-date">
+  <time class="dt-published" datetime="2022-05-11T14:02:38.000Z" itemprop="datePublished">2022-05-11</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/05/11/service%E6%B5%81%E7%A8%8B/">service流程</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/zwjemperor/article/details/82949913">Android 8.0 Service源码分析：启动流程及后台限制详解</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/yangwen123/article/details/9388095">Android服务启动之StartService源码分析</a></p>
+<p>service流程待整理</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/11/service%E6%B5%81%E7%A8%8B/" data-id="cl379c8tr0003bkuh1ifdesdv" data-title="service流程" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-环境配置" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/04/24/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" class="article-date">
+  <time class="dt-published" datetime="2022-04-24T12:37:21.000Z" itemprop="datePublished">2022-04-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/04/24/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">环境配置</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h4 id="查看ssh密钥"><a href="#查看ssh密钥" class="headerlink" title="查看ssh密钥"></a>查看ssh密钥</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">查看ssh</span></span><br><span class="line">ls -al ~/.ssh</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">复制ssh</span></span><br><span class="line">pbcopy &lt; ~/.ssh/id_ed25519.pub</span><br></pre></td></tr></table></figure>
+
+<h4 id="Yarn-x2F-npm换源"><a href="#Yarn-x2F-npm换源" class="headerlink" title="Yarn&#x2F;npm换源"></a>Yarn&#x2F;npm换源</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm config set registry https://registry.npm.taobao.org</span><br><span class="line">yarn config set registry https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+<h4 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h4><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration">hexo官方文档</a></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">安装</span></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">初始化</span></span><br><span class="line">hexo init hexo</span><br><span class="line">cd hexo</span><br><span class="line">npm install</span><br><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
+
+<h4 id="brew"><a href="#brew" class="headerlink" title="brew"></a>brew</h4><p>1、失败，查询真实 raw.githubusercontent.com ip：<a target="_blank" rel="noopener" href="https://www.ipaddress.com/">https://www.ipaddress.com</a></p>
+<p>2、sudo vim &#x2F;etc&#x2F;hosts</p>
+<p>3、添加 185.199.108.133 raw.githubusercontent.com</p>
+<p>.zshrc </p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export HOMEBREW_BREW_GIT_REMOTE=&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git&quot;</span><br><span class="line">export HOMEBREW_CORE_GIT_REMOTE=&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git&quot;</span><br><span class="line">export HOMEBREW_BOTTLE_DOMAIN=&quot;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles&quot;</span><br></pre></td></tr></table></figure>
+
+<p>换源</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">阿里云</span></span><br><span class="line">cd &quot;$(brew --repo)&quot; &amp;&amp; git remote -v</span><br><span class="line">cd &quot;$(brew --repo homebrew/core)&quot; &amp;&amp; git remote -v</span><br><span class="line">git -C &quot;$(brew --repo)&quot; remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/core)&quot; remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git</span><br><span class="line">echo &#x27;export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles&#x27;  &gt;&gt; ~/.zshrc</span><br><span class="line">source ~/.zshrc</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">清华同方</span></span><br><span class="line">git -C &quot;$(brew --repo)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/core)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/cask)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/cask-fonts)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-fonts.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/cask-drivers)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-drivers.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/cask-versions)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-versions.git</span><br><span class="line">brew update-reset</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/04/24/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" data-id="cl379c8ts0004bkuh44376tyn" data-title="环境配置" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-mac安装brew" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/04/23/mac%E5%AE%89%E8%A3%85brew/" class="article-date">
+  <time class="dt-published" datetime="2022-04-23T14:05:18.000Z" itemprop="datePublished">2022-04-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/04/23/mac%E5%AE%89%E8%A3%85brew/">mac安装brew</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p><a target="_blank" rel="noopener" href="https://brew.sh/index_zh-cn">https://brew.sh/index_zh-cn</a></p>
+<p>提示报错：</p>
+<p><img src="https://github.com/raokcp/picgo-pic/blob/main/1650699968798-b8693c4b-4efa-4c1c-83cd-0d59ac77e30f.png?raw=true"></p>
+<p>1、失败，查询真实 raw.githubusercontent.com ip：<a target="_blank" rel="noopener" href="https://www.ipaddress.com/">https://www.ipaddress.com</a></p>
+<p>2、sudo vim &#x2F;etc&#x2F;hosts</p>
+<p>3、添加 185.199.108.133 raw.githubusercontent.com</p>
+<p><em><strong>换源：</strong></em></p>
+<p><em><strong>cd “$(brew –repo)” &amp;&amp; git remote -v</strong></em></p>
+<p><em><strong>cd “$(brew –repo homebrew&#x2F;core)” &amp;&amp; git remote -v</strong></em></p>
+<p><em><strong>git -C “$(brew –repo)” remote set-url origin <a target="_blank" rel="noopener" href="https://mirrors.aliyun.com/homebrew/brew.git">https://mirrors.aliyun.com/homebrew/brew.git</a></strong></em></p>
+<p><em><strong>git -C “$(brew –repo homebrew&#x2F;core)” remote set-url origin <a target="_blank" rel="noopener" href="https://mirrors.aliyun.com/homebrew/homebrew-core.git">https://mirrors.aliyun.com/homebrew/homebrew-core.git</a></strong></em></p>
+<p><em><strong>echo ‘export HOMEBREW_BOTTLE_DOMAIN&#x3D;<a target="_blank" rel="noopener" href="https://mirrors.aliyun.com/homebrew/homebrew-bottles&#39;">https://mirrors.aliyun.com/homebrew/homebrew-bottles&#39;</a>  &gt;&gt; ~&#x2F;.zshrc</strong></em></p>
+<p><em><strong>source ~&#x2F;.zshrc</strong></em></p>
+<p><em><strong>换源2:</strong></em></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">export HOMEBREW_BREW_GIT_REMOTE=&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git&quot;</span><br><span class="line">export HOMEBREW_CORE_GIT_REMOTE=&quot;https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git&quot;</span><br><span class="line">export HOMEBREW_BOTTLE_DOMAIN=&quot;https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles&quot;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">git -C &quot;$(brew --repo)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/core)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/cask)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/cask-fonts)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-fonts.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/cask-drivers)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-drivers.git</span><br><span class="line">git -C &quot;$(brew --repo homebrew/cask-versions)&quot; remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-versions.git</span><br><span class="line">brew update-reset</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/04/23/mac%E5%AE%89%E8%A3%85brew/" data-id="cl379c8tp0001bkuhcuvy5ph6" data-title="mac安装brew" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-AIDL" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/04/23/AIDL/" class="article-date">
+  <time class="dt-published" datetime="2022-04-23T13:08:26.000Z" itemprop="datePublished">2022-04-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/04/23/AIDL/">AIDL</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="aidl使用详解"><a href="#aidl使用详解" class="headerlink" title="aidl使用详解"></a>aidl使用详解</h2><p>由于android进程隔离，不能直接进行通信，我们需要通过其他手段来实现。</p>
+<p>下面先来通过aidl实现一个app和我们自己创建的service进程间的通信。</p>
+<h4 id="1、android-studio中创建aidl文件"><a href="#1、android-studio中创建aidl文件" class="headerlink" title="1、android studio中创建aidl文件"></a>1、android studio中创建aidl文件</h4><p><img src="https://raw.githubusercontent.com/raokcp/picgo-pic/main/20220423210652.png"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/04/23/AIDL/" data-id="cl379c8tk0000bkuh38w24mtx" data-title="AIDL" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/05/">五月 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/04/">四月 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/05/15/android-adb%E4%B8%8E%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%9B%B8%E5%85%B3%EF%BC%88%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%EF%BC%89/">android adb与模拟器相关（持续更新）</a>
+          </li>
+        
+          <li>
+            <a href="/2022/05/15/%E9%97%AE%E9%A2%98%E6%94%B6%E9%9B%86/">问题收集</a>
+          </li>
+        
+          <li>
+            <a href="/2022/05/11/Git%E5%91%BD%E4%BB%A4-%E6%8C%81%E7%BB%AD%E6%95%B4%E7%90%86/">Git命令 -- 持续整理</a>
+          </li>
+        
+          <li>
+            <a href="/2022/05/11/service%E6%B5%81%E7%A8%8B/">service流程</a>
+          </li>
+        
+          <li>
+            <a href="/2022/04/24/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">环境配置</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 Youfat<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
